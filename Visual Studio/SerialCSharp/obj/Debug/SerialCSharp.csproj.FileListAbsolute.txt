@@ -1,0 +1,48 @@
+C:\Users\yogi\source\repos\SerialCSharp\SerialCSharp\bin\Debug\SerialCSharp.exe.config
+C:\Users\yogi\source\repos\SerialCSharp\SerialCSharp\bin\Debug\SerialCSharp.exe
+C:\Users\yogi\source\repos\SerialCSharp\SerialCSharp\bin\Debug\SerialCSharp.pdb
+C:\Users\yogi\source\repos\SerialCSharp\SerialCSharp\obj\Debug\SerialCSharp.csproj.AssemblyReference.cache
+C:\Users\yogi\source\repos\SerialCSharp\SerialCSharp\obj\Debug\SerialCSharp.Properties.Resources.resources
+C:\Users\yogi\source\repos\SerialCSharp\SerialCSharp\obj\Debug\SerialCSharp.csproj.GenerateResource.cache
+C:\Users\yogi\source\repos\SerialCSharp\SerialCSharp\obj\Debug\SerialCSharp.csproj.CoreCompileInputs.cache
+C:\Users\yogi\source\repos\SerialCSharp\SerialCSharp\obj\Debug\SerialCSharp.exe
+C:\Users\yogi\source\repos\SerialCSharp\SerialCSharp\obj\Debug\SerialCSharp.pdb
+C:\Users\yogi\source\repos\SerialCSharp\SerialCSharp\obj\Debug\SerialCSharp.Form1.resources
+C:\Users\yogi\source\repos\SerialCSharp\SerialCSharp\bin\Debug\M2Mqtt.Net.dll
+C:\Users\yogi\source\repos\SerialCSharp\SerialCSharp\bin\Debug\M2Mqtt.Net.pdb
+C:\Users\yogi\source\repos\SerialCSharp\SerialCSharp\obj\Debug\SerialCSharp.csproj.CopyComplete
+C:\Users\frank\source\repos\GITHUB\Power-Monitoring\Visual Studio\SerialCSharp\bin\Debug\SerialCSharp.exe.config
+C:\Users\frank\source\repos\GITHUB\Power-Monitoring\Visual Studio\SerialCSharp\bin\Debug\SerialCSharp.exe
+C:\Users\frank\source\repos\GITHUB\Power-Monitoring\Visual Studio\SerialCSharp\bin\Debug\SerialCSharp.pdb
+C:\Users\frank\source\repos\GITHUB\Power-Monitoring\Visual Studio\SerialCSharp\bin\Debug\M2Mqtt.Net.dll
+C:\Users\frank\source\repos\GITHUB\Power-Monitoring\Visual Studio\SerialCSharp\bin\Debug\M2Mqtt.Net.pdb
+C:\Users\frank\source\repos\GITHUB\Power-Monitoring\Visual Studio\SerialCSharp\obj\Debug\SerialCSharp.csproj.AssemblyReference.cache
+C:\Users\frank\source\repos\GITHUB\Power-Monitoring\Visual Studio\SerialCSharp\obj\Debug\SerialCSharp.Properties.Resources.resources
+C:\Users\frank\source\repos\GITHUB\Power-Monitoring\Visual Studio\SerialCSharp\obj\Debug\SerialCSharp.csproj.GenerateResource.cache
+C:\Users\frank\source\repos\GITHUB\Power-Monitoring\Visual Studio\SerialCSharp\obj\Debug\SerialCSharp.csproj.CoreCompileInputs.cache
+C:\Users\frank\source\repos\GITHUB\Power-Monitoring\Visual Studio\SerialCSharp\obj\Debug\SerialCSharp.exe
+C:\Users\frank\source\repos\GITHUB\Power-Monitoring\Visual Studio\SerialCSharp\obj\Debug\SerialCSharp.pdb
+C:\Users\frank\source\repos\GITHUB\Power-Monitoring\Visual Studio\SerialCSharp\bin\Debug\ComponentFactory.Krypton.Docking.dll
+C:\Users\frank\source\repos\GITHUB\Power-Monitoring\Visual Studio\SerialCSharp\bin\Debug\ComponentFactory.Krypton.Navigator.dll
+C:\Users\frank\source\repos\GITHUB\Power-Monitoring\Visual Studio\SerialCSharp\bin\Debug\ComponentFactory.Krypton.Ribbon.dll
+C:\Users\frank\source\repos\GITHUB\Power-Monitoring\Visual Studio\SerialCSharp\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+C:\Users\frank\source\repos\GITHUB\Power-Monitoring\Visual Studio\SerialCSharp\bin\Debug\ComponentFactory.Krypton.Workspace.dll
+C:\Users\frank\source\repos\GITHUB\Power-Monitoring\Visual Studio\SerialCSharp\obj\Debug\SerialCSharp.Main.resources
+C:\Users\yogi\Documents\Visual Studio 2019\Power-Monitoring-main\Visual Studio\SerialCSharp\bin\Debug\SerialCSharp.exe.config
+C:\Users\yogi\Documents\Visual Studio 2019\Power-Monitoring-main\Visual Studio\SerialCSharp\bin\Debug\SerialCSharp.exe
+C:\Users\yogi\Documents\Visual Studio 2019\Power-Monitoring-main\Visual Studio\SerialCSharp\bin\Debug\SerialCSharp.pdb
+C:\Users\yogi\Documents\Visual Studio 2019\Power-Monitoring-main\Visual Studio\SerialCSharp\bin\Debug\ComponentFactory.Krypton.Docking.dll
+C:\Users\yogi\Documents\Visual Studio 2019\Power-Monitoring-main\Visual Studio\SerialCSharp\bin\Debug\ComponentFactory.Krypton.Navigator.dll
+C:\Users\yogi\Documents\Visual Studio 2019\Power-Monitoring-main\Visual Studio\SerialCSharp\bin\Debug\ComponentFactory.Krypton.Ribbon.dll
+C:\Users\yogi\Documents\Visual Studio 2019\Power-Monitoring-main\Visual Studio\SerialCSharp\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+C:\Users\yogi\Documents\Visual Studio 2019\Power-Monitoring-main\Visual Studio\SerialCSharp\bin\Debug\ComponentFactory.Krypton.Workspace.dll
+C:\Users\yogi\Documents\Visual Studio 2019\Power-Monitoring-main\Visual Studio\SerialCSharp\bin\Debug\M2Mqtt.Net.dll
+C:\Users\yogi\Documents\Visual Studio 2019\Power-Monitoring-main\Visual Studio\SerialCSharp\bin\Debug\M2Mqtt.Net.pdb
+C:\Users\yogi\Documents\Visual Studio 2019\Power-Monitoring-main\Visual Studio\SerialCSharp\obj\Debug\SerialCSharp.csproj.AssemblyReference.cache
+C:\Users\yogi\Documents\Visual Studio 2019\Power-Monitoring-main\Visual Studio\SerialCSharp\obj\Debug\SerialCSharp.Main.resources
+C:\Users\yogi\Documents\Visual Studio 2019\Power-Monitoring-main\Visual Studio\SerialCSharp\obj\Debug\SerialCSharp.Properties.Resources.resources
+C:\Users\yogi\Documents\Visual Studio 2019\Power-Monitoring-main\Visual Studio\SerialCSharp\obj\Debug\SerialCSharp.csproj.GenerateResource.cache
+C:\Users\yogi\Documents\Visual Studio 2019\Power-Monitoring-main\Visual Studio\SerialCSharp\obj\Debug\SerialCSharp.csproj.CoreCompileInputs.cache
+C:\Users\yogi\Documents\Visual Studio 2019\Power-Monitoring-main\Visual Studio\SerialCSharp\obj\Debug\SerialCSharp.csproj.CopyComplete
+C:\Users\yogi\Documents\Visual Studio 2019\Power-Monitoring-main\Visual Studio\SerialCSharp\obj\Debug\SerialCSharp.exe
+C:\Users\yogi\Documents\Visual Studio 2019\Power-Monitoring-main\Visual Studio\SerialCSharp\obj\Debug\SerialCSharp.pdb
