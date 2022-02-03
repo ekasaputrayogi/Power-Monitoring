@@ -22,15 +22,23 @@ namespace SerialCSharp
             InitializeComponent();
         }
         private static SimpleCryptograph oSimpleCryptograph = new SimpleCryptograph(ConfigurationManager.AppSettings["KeyHash"]);
-        private static SerialPort port = new SerialPort(ConfigurationManager.AppSettings["PORT"], Convert.ToInt32(ConfigurationManager.AppSettings["Baudrate"]));
+        
         private void Bt_Setup_Click(object sender, EventArgs e)
         {
+            
             try
             {
-                Tb_ListBox.Items.Add($"SSID WIFI:\t{Tb_SSID.Text}\nPassword WIFI :\t{oSimpleCryptograph.EncryptData(Tb_Password.Text)}\nMQTT SERVER :\t{Tb_MQTTServer.Text}\nMQTT PORT\t{Tb_MQTPort.Text}\nMQTT User :\t{Tb_MQTTUser.Text}\nMQTT Pass :\t{oSimpleCryptograph.EncryptData(Tb_Password.Text)}\n");
+                string[] clist = Tb_ListBox.Items.OfType<string>().ToArray();
+                if (Tb_MQTTUser.Text == "" | Tb_MQTPort.Text == "" | Tb_MQTTPass.Text == "" | Tb_MQTTServer.Text == "" | Tb_SSID.Text == "" | Tb_Password.Text == "")
+                {
+                    MessageBox.Show("Fill Column Completely");
+                }
+            
+                SerialPort port = new SerialPort(Cb_Port.Text, Convert.ToInt32(Tb_Baudrate.Text));
+                //Tb_ListBox.Items.Add($"SSID WIFI:\t{Tb_SSID.Text}\nPassword WIFI :\t{oSimpleCryptograph.EncryptData(Tb_Password.Text)}\nMQTT SERVER :\t{Tb_MQTTServer.Text}\nMQTT PORT\t{Tb_MQTPort.Text}\nMQTT User :\t{Tb_MQTTUser.Text}\nMQTT Pass :\t{oSimpleCryptograph.EncryptData(Tb_Password.Text)}\n");
                 //MessageBox.Show(oSimpleCryptograph.DecryptData(oSimpleCryptograph.EncryptData(Tb_Password.Text)));
                 port.Open();
-                port.Write($"{Tb_SSID.Text}\n{Tb_Password.Text}\n{Tb_MQTTServer.Text}\n{Tb_MQTPort.Text}\n{Tb_MQTTUser.Text}\n{Tb_Password.Text}\n");
+                port.Write($"{Tb_SSID.Text}\n{Tb_Password.Text}\n{Tb_MQTTServer.Text}\n{Tb_MQTPort.Text}\n{Tb_MQTTUser.Text}\n{Tb_MQTTPass.Text}\n{clist[0]}\n{clist[1]}\n{clist[2]}\n{clist[3]}\n{clist[4]}\n{clist[5]}\n{clist[6]}\n{clist[7]}");
                 port.Close();
             }
             catch (Exception ex)
@@ -92,6 +100,51 @@ namespace SerialCSharp
         private void Tb_AlarmMore_KeyPress(object sender, KeyPressEventArgs e)
         {
             e.Handled = !char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar);
+        }
+
+
+        private void Cb_Port_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+       
+
+        private void Main_Load(object sender, EventArgs e)
+        {
+            String[] ports = SerialPort.GetPortNames();
+            for (int i = 0; i <= ports.Length - 1; i++)
+            {
+                if (Cb_Port.Items.Contains(ports[i]))
+                {
+
+                }
+                else
+                {
+                    Cb_Port.Items.Add(ports[i]);
+                }
+                
+            }
+        }
+
+        private void kryptonButton2_Click(object sender, EventArgs e)
+        {
+            String[] ports = SerialPort.GetPortNames();
+            Cb_Port.Items.Clear();
+            for (int i = 0; i <= ports.Length - 1; i++)
+            {
+                
+                if (Cb_Port.Items.Contains(ports[i]))
+                {
+                    
+                }
+                else
+                {
+                  
+                    Cb_Port.Items.Add(ports[i]);
+                }
+
+            }
         }
     }
 }
