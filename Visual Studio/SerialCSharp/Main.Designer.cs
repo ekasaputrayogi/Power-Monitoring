@@ -73,6 +73,9 @@ namespace SerialCSharp
             this.label18 = new System.Windows.Forms.Label();
             this.Tb_Baudrate = new ComponentFactory.Krypton.Toolkit.KryptonTextBox();
             this.kryptonGroupBox4 = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
+            this.kryptonGroupBox5 = new ComponentFactory.Krypton.Toolkit.KryptonGroupBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.Cb_DeviceID = new ComponentFactory.Krypton.Toolkit.KryptonComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.WifiGroup)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.WifiGroup.Panel)).BeginInit();
             this.WifiGroup.Panel.SuspendLayout();
@@ -95,6 +98,11 @@ namespace SerialCSharp
             ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox4.Panel)).BeginInit();
             this.kryptonGroupBox4.Panel.SuspendLayout();
             this.kryptonGroupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox5.Panel)).BeginInit();
+            this.kryptonGroupBox5.Panel.SuspendLayout();
+            this.kryptonGroupBox5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Cb_DeviceID)).BeginInit();
             this.SuspendLayout();
             // 
             // IOTPalette
@@ -190,7 +198,7 @@ namespace SerialCSharp
             // Bt_Setup
             // 
             this.Bt_Setup.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Bt_Setup.Location = new System.Drawing.Point(726, 502);
+            this.Bt_Setup.Location = new System.Drawing.Point(698, 549);
             this.Bt_Setup.Name = "Bt_Setup";
             this.Bt_Setup.OverrideDefault.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(92)))), ((int)(((byte)(184)))), ((int)(((byte)(116)))));
             this.Bt_Setup.OverrideDefault.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(143)))), ((int)(((byte)(81)))));
@@ -1062,12 +1070,106 @@ namespace SerialCSharp
             this.kryptonGroupBox4.TabIndex = 63;
             this.kryptonGroupBox4.Values.Heading = "Summary";
             // 
+            // kryptonGroupBox5
+            // 
+            this.kryptonGroupBox5.Location = new System.Drawing.Point(30, 494);
+            this.kryptonGroupBox5.Name = "kryptonGroupBox5";
+            // 
+            // kryptonGroupBox5.Panel
+            // 
+            this.kryptonGroupBox5.Panel.Controls.Add(this.Cb_DeviceID);
+            this.kryptonGroupBox5.Panel.Controls.Add(this.label7);
+            this.kryptonGroupBox5.Size = new System.Drawing.Size(251, 108);
+            this.kryptonGroupBox5.StateCommon.Back.Color1 = System.Drawing.Color.White;
+            this.kryptonGroupBox5.StateCommon.Back.Color2 = System.Drawing.Color.White;
+            this.kryptonGroupBox5.StateCommon.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.kryptonGroupBox5.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.kryptonGroupBox5.StateCommon.Border.Rounding = 15;
+            this.kryptonGroupBox5.StateCommon.Border.Width = 1;
+            this.kryptonGroupBox5.StateCommon.Content.Padding = new System.Windows.Forms.Padding(10, -1, -1, -1);
+            this.kryptonGroupBox5.StateNormal.Back.Color1 = System.Drawing.Color.White;
+            this.kryptonGroupBox5.StateNormal.Back.Color2 = System.Drawing.Color.White;
+            this.kryptonGroupBox5.StateNormal.Back.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.kryptonGroupBox5.StateNormal.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.kryptonGroupBox5.StateNormal.Border.Rounding = 15;
+            this.kryptonGroupBox5.StateNormal.Border.Width = 1;
+            this.kryptonGroupBox5.TabIndex = 64;
+            this.kryptonGroupBox5.Values.Heading = "Device ID";
+            // 
+            // label7
+            // 
+            this.label7.AutoEllipsis = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.Red;
+            this.label7.Location = new System.Drawing.Point(39, 47);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(154, 28);
+            this.label7.TabIndex = 17;
+            this.label7.Text = "DEVICE ID MUST BE DIFFERENT WITH OTHER DEVICE";
+            // 
+            // Cb_DeviceID
+            // 
+            this.Cb_DeviceID.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.Cb_DeviceID.DropDownWidth = 203;
+            this.Cb_DeviceID.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20"});
+            this.Cb_DeviceID.Location = new System.Drawing.Point(26, 11);
+            this.Cb_DeviceID.Name = "Cb_DeviceID";
+            this.Cb_DeviceID.Size = new System.Drawing.Size(179, 33);
+            this.Cb_DeviceID.StateCommon.ComboBox.Border.Color1 = System.Drawing.Color.Black;
+            this.Cb_DeviceID.StateCommon.ComboBox.Border.Color2 = System.Drawing.Color.Black;
+            this.Cb_DeviceID.StateCommon.ComboBox.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.Cb_DeviceID.StateCommon.ComboBox.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.Cb_DeviceID.StateCommon.ComboBox.Border.Rounding = 20;
+            this.Cb_DeviceID.StateCommon.ComboBox.Border.Width = 1;
+            this.Cb_DeviceID.StateCommon.ComboBox.Content.Padding = new System.Windows.Forms.Padding(10, -1, -1, -1);
+            this.Cb_DeviceID.StateNormal.ComboBox.Border.Color1 = System.Drawing.Color.Black;
+            this.Cb_DeviceID.StateNormal.ComboBox.Border.Color2 = System.Drawing.Color.Black;
+            this.Cb_DeviceID.StateNormal.ComboBox.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.Cb_DeviceID.StateNormal.ComboBox.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.Cb_DeviceID.StateNormal.ComboBox.Border.Rounding = 20;
+            this.Cb_DeviceID.StateNormal.ComboBox.Border.Width = 1;
+            this.Cb_DeviceID.StateTracking.Item.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
+            | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
+            this.Cb_DeviceID.StateTracking.Item.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.Cb_DeviceID.StateTracking.Item.Content.Padding = new System.Windows.Forms.Padding(10, -1, -1, -1);
+            this.Cb_DeviceID.TabIndex = 63;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(252)))), ((int)(((byte)(252)))));
-            this.ClientSize = new System.Drawing.Size(867, 556);
+            this.ClientSize = new System.Drawing.Size(867, 618);
+            this.Controls.Add(this.kryptonGroupBox5);
             this.Controls.Add(this.kryptonGroupBox4);
             this.Controls.Add(this.kryptonGroupBox3);
             this.Controls.Add(this.kryptonGroupBox2);
@@ -1107,6 +1209,11 @@ namespace SerialCSharp
             this.kryptonGroupBox4.Panel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox4)).EndInit();
             this.kryptonGroupBox4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox5.Panel)).EndInit();
+            this.kryptonGroupBox5.Panel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.kryptonGroupBox5)).EndInit();
+            this.kryptonGroupBox5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Cb_DeviceID)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1155,6 +1262,9 @@ namespace SerialCSharp
         private ComponentFactory.Krypton.Toolkit.KryptonButton Bt_PinOK;
         private ComponentFactory.Krypton.Toolkit.KryptonButton kryptonButton2;
         private ComponentFactory.Krypton.Toolkit.KryptonGroupBox kryptonGroupBox4;
+        private ComponentFactory.Krypton.Toolkit.KryptonGroupBox kryptonGroupBox5;
+        private ComponentFactory.Krypton.Toolkit.KryptonComboBox Cb_DeviceID;
+        private System.Windows.Forms.Label label7;
     }
 }
 
